@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes de Código</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Testes de Código</h1>
+
+        <!-- Teste da Sequência de Fibonacci -->
+        <div class="section">
+            <h2>Verificação de Fibonacci</h2>
+            <input type="number" id="fibonacci-input" placeholder="Digite um número">
+            <button onclick="checkFibonacci()">Verificar</button>
+            <p id="fibonacci-result"></p>
+        </div>
+
+        <!-- Contagem de Letras 'a' -->
+        <div class="section">
+            <h2>Contagem da Letra 'a'</h2>
+            <textarea id="text-input" placeholder="Digite uma string"></textarea>
+            <button onclick="countLetterA()">Contar</button>
+            <p id="letter-a-result"></p>
+        </div>
+
+        <!-- Análise do Código -->
+        <div class="section">
+            <h2>Análise do Código</h2>
+            <button onclick="analyzeCode()">Calcular SOMA</button>
+            <p id="code-result"></p>
+        </div>
+
+        <!-- Sequências -->
+        <div class="section">
+            <h2>Próximos Elementos das Sequências</h2>
+            <p id="sequences-result"></p>
+        </div>
+
+        <!-- Teste Lógica -->
+         <div class="section">
+            <h2>Solução do Teste de Lógica:</h2>
+            <p>Ápos refletir bastante sobre, cheguei a conclusão de que muitas alternativas de resolver a questão, iriam se
+                basear em sorte, e dessa forma, não as tornariam eficazes, então, a maneira que encontrei de que o problema possa
+                ser resolvido de forma definitiva, é o seguinte:
+            </p>
+            <p> 1 Passo: Definir os interruptores como A, B e C </p>
+            <p>2 Passo: Ligar o Interruptor A por 10 minutos, com o objetivo de aquecer a lampada, depois a desligar.</p>
+            <p>3 Passo: Ligar o Interruptor B.</p>
+            <p>4 Passo: Não tocar no Interruptor C.</p>
+                <p>Ir até as salas das lâmpadas e observe:</p>
+                    <p>Lâmpada acesa = Interruptor B</p>
+                        <p>Lâmpada apagada e quente = Interruptor A</p>
+                            <p>Lâmpada apagada e fria = Interruptor C</p>
+            <h3>Este método também garante que você possa identificar cada interruptor com precisão usando apenas duas idas às salas das lâmpadas.</h2>
+         </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
